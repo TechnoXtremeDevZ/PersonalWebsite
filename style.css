@@ -1,0 +1,54 @@
+﻿body {
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#stjbl {
+    height:300px;
+    width:250px;
+    margin:32.5px;
+}
+#home {
+    background: linear-gradient(#3294a8 0%,#32a8a4 100%);
+    width:100%;
+    overflow:hidden;
+    height:100%;
+    display:table;
+}
+#bio{
+    width:100%;
+    overflow:hidden;
+    height:100%;
+    margin:8px auto;
+}
+div {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+}
+#line {
+    height:10px;
+    background-color:#3294a8;
+    width:70px;
+    left:540px;
+}
+#berners {
+    list-style:none;
+    background-color:aquamarine;
+    position:fixed;
+    width:100%;
+    z-index:100;
+    margin:0px;
+}
+.menubar {
+    float:left;
+    padding-bottom:5px;
+    padding-top:5px;
+    padding-left:8px;
+    padding-right:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+.menubar:hover {
+    background:linear-gradient(#00ff21 0%,#00ff90 100%);
+    font-size:18px;
+}
