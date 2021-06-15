@@ -1,44 +1,105 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <title>Sir Tim Berners-Lee</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <ul id="berners">
-        <li class="menubar">
-            Home
-        </li>
-        <li class="menubar">
-            Bio
-        </li>
-        <li class="menubar">
-            My Work
-        </li>
-        <li class="menubar">
-            Writings
-        </li>
-        <li class="menubar">
-            Contact Me
-        </li>
-    </ul>
-    <section id="home">
-        <div>
-        <img id="stjbl" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" />
-        <h4>Welcome!</h4>
-        <h2>I am <br /> Sir Tim Berners-Lee</h2>
-        <h2>I am the founder of the World Wide Web</h2>
+    <div class="container">
+        <ul id="berners">
+            <li class="menubar">
+                <a href="#home">Home</a>
+            </li>
+            <li class="menubar">
+                <a href="#bio">Bio</a>
+            </li>
+            <li class="menubar">
+                <a href="#videos">Videos</a>
+            </li>
+            <li class="menubar">
+                <a href="#my_work">My Work</a>
+            </li>
+            <li class="menubar">
+                <a href="#writings">Writings</a>
+            </li>
+            <li class="menubar">
+                Contact Me
+            </li>
+        </ul>
+        <div class="carousel slide col-lg-12 col-md-12" id="STBL">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="https://i.guim.co.uk/img/media/78d8b6633929f6f931bf16f00057c3817c82ec76/0_170_5098_3059/master/5098.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=18b1fec6664329f8a67d7dd7d5c92a98" class="img-responsive" />
+                        <div class="carousel-content">
+                            <p>
+                                Sir Time Berners-Lee unveils global plan to save the web!
+                            </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="http://www.elon.edu/u/imagining/wp-content/uploads/sites/964/2019/05/Tim_Berners-Lee_Arete_Medallion_sm-300x225.jpg" class="img-responsive" />
+                        <div class="carousel-content">
+                            <p>
+                                Sir Time Berners-Lee is awarded the 2018 Areté Medallion!
+                            </p>
+                        </div>
+                    </center>
+                </div>
             </div>
-    </section>
-    <section id="bio">
-        <h2 class="bio_c">
-            My Bio:
-        </h2>
-        <div id="line">
+            <a href="#STBL" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
 
+                </span>
+            </a>
+            <a href="#STBL" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+
+                </span>
+            </a>
         </div>
-        <p>Sir Timothy John Berners-Lee (born 8 June 1955), also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT). Berners-Lee proposed an information management system on 12 March 1989, then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.</p>
-    </section>
+        <section id="home">
+            <div>
+                <img id="stjbl" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" />
+                <h4>Welcome!</h4>
+                <h2>I am <br /> Sir Tim Berners-Lee</h2>
+                <h2>I am the founder of the World Wide Web</h2>
+            </div>
+        </section>
+        <section id="bio">
+            <h2 class="bio_c">
+                My Bio:
+            </h2>
+            <div id="line">
+
+            </div>
+            <p>Sir Timothy John Berners-Lee (born 8 June 1955), also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford and a professor at the Massachusetts Institute of Technology (MIT). Berners-Lee proposed an information management system on 12 March 1989, then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the Internet in mid-November.</p>
+        </section>
+        <section id="videos">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rCplocVemjo" title="YouTube media player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encyrpted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </section>
+        <section id="my_work">
+            <iframe width="800" height="600" src="https://www.britannica.com/biography/Tim-Berners-Lee">
+            </iframe>
+        </section>
+        <br />
+        <br />
+        <section id="writings">
+            <a href="https://w3schools.com" target="_blank">Sir Tim Berners-Lee's publications</a>
+        </section>
+    </div>
 </body>
 </html>
