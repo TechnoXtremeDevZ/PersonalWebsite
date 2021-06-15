@@ -1,4 +1,4 @@
-﻿body {
+body {
     text-align:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -9,16 +9,16 @@
 }
 #home {
     background: linear-gradient(#3294a8 0%,#32a8a4 100%);
-    width:100%;
+    width: 1200px;
+    height: 100%;
+    display: table;
     overflow:hidden;
-    height:100%;
-    display:table;
 }
 #bio{
     width:100%;
-    overflow:hidden;
     height:100%;
     margin:8px auto;
+    overflow:hidden; 
 }
 div {
     display:table-cell;
@@ -51,4 +51,19 @@ div {
 .menubar:hover {
     background:linear-gradient(#00ff21 0%,#00ff90 100%);
     font-size:18px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    font-size: 18px;
+}
+html {
+    scroll-behavior:smooth;
+}
+#STBL img {
+    margin:30px;
+    width:800px;
+    height:500px;
 }
